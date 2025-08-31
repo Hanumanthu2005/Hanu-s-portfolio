@@ -3,32 +3,41 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Hand Cricket Game",
+    description: "Relive the classic hand cricket fun in a digital way!",
+    image: "/projects/hand-cricket.jpeg",
+    tags: ["React", "Css"],
+    demoUrl: "https://hand-cricket-game-lac.vercel.app/",
+    githubUrl: "https://github.com/Hanumanthu2005/Hand-Cricket-Game",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Rock Paper Scissors",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "The timeless Rock-Paper-Scissors battle, reimagined for the web!",
+    image: "/projects/rock-paper-scissors.jpeg",
+    tags: ["React", "Css"],
+    demoUrl: "https://hand-cricket-game-lac.vercel.app/",
+    githubUrl: "https://github.com/Hanumanthu2005/Rock-Paper-Scissors-Game",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Quiz App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "A robust backend API powering dynamic quizzes with Spring Boot and PostgreSQL.",
+    image: "/projects/quiz-app.jpg",
+    tags: ["Java", "Springboot", "PostgreSql"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Hanumanthu2005/quiz-App1.1",
+  },{
+    id: 4,
+    title: "Job Search App",
+    description:
+      "Connecting job seekers with opportunities through a seamless and intuitive platform.",
+    image: "/projects/job-search.jpg",
+    tags: ["Java", "Springboot", "MongoDB", "React"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Hanumanthu2005/JobSearchApp-1.0",
   },
 ];
 
@@ -100,7 +109,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Hanumanthu2005"
           >
             Check My Github <ArrowRight size={16} />
           </a>
