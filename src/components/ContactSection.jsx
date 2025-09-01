@@ -70,7 +70,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+91 9603522970"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +91 96035 22970
