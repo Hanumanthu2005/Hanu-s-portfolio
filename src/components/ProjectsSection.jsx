@@ -17,7 +17,7 @@ const projects = [
       "The timeless Rock-Paper-Scissors battle, reimagined for the web!",
     image: "/projects/rock-paper-scissors.jpeg",
     tags: ["React", "Css"],
-    demoUrl: "https://hand-cricket-game-lac.vercel.app/",
+    demoUrl: "https://rock-paper-scissors-game-lemon-seven.vercel.app/",
     githubUrl: "https://github.com/Hanumanthu2005/Rock-Paper-Scissors-Game",
   },
   {
